@@ -4,7 +4,7 @@ This is a React hook designed to be used with Next.js applications. The hook pro
 
 ## Installation
 
-To use the `useActiveRouter` hook, you can install it using `npm` or `yarn`.
+To use the `useActiveRouter` hook, you can install it using `npm`
 
 ```bash
 npm install active-link-nextjs

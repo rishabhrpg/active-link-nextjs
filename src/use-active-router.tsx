@@ -1,4 +1,4 @@
-import { useRouter } from "next/router";
+import { useRouter } from "next/router.js";
 
 interface ActiveRouterConfig {
   activeClass: string;
