@@ -1,4 +1,5 @@
-# UseActiveRouter Hook
+# UseActiveRouter Hook  <a href="https://twitter.com/intent/tweet?text=%22Effortlessly%20Highlight%20Active%20Links%20in%20Your%20Next.js%20Application%20with%20useActiveRouter%20Hook%22%20by%20Rishabh%20%23DEVCommunity%20https%3A%2F%2Fdev.to%2Frishabhrpg%2Feffortlessly-highlight-active-links-in-your-nextjs-application-with-useactiverouter-hook-mfb" target="_blank">![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)</a>
+![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 This is a React hook designed to be used with Next.js applications. The hook provides a function to register routes and get their active status based on the current route. This is useful for building navigations where the active link needs to be highlighted.
 
