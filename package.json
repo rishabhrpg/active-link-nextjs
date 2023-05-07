@@ -1,0 +1,46 @@
+{
+  "name": "active-link-nextjs",
+  "version": "0.0.5",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js",
+    "./lib/*": "./lib/*"
+  },
+  "description": "React hook to use with nextjs router to auto apply active class on active link",
+  "types": "./lib/index.d.ts",
+  "files": [
+    "src",
+    "lib",
+    "types"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && tsc",    
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhrpg/active-link-nextjs.git"
+  },
+  "keywords": [
+    "active",
+    "link",
+    "nextjs"
+  ],
+  "author": "Rishabh Gusain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishabhrpg/active-link-nextjs/issues"
+  },
+  "homepage": "https://github.com/rishabhrpg/active-link-nextjs#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@types/react": "^18.2.1",
+    "@types/react-dom": "^18.2.2",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "next": "^13.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
