@@ -1,13 +1,13 @@
 {
   "name": "active-link-nextjs",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "type": "module",
   "exports": {
     ".": "./dist/use-active-router.js",
     "./dist/*": "./dist/*"
   },
   "description": "React hook to use with nextjs router to auto apply active class on active link",
-  "types": "./lib/use-active-router.d.ts",
+  "types": "./dist/use-active-router.d.ts",
   "files": [
     "src",
     "dist",
@@ -40,7 +40,7 @@
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
-    "next": "^13.3.4",
+    "next": "^13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

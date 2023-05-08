@@ -13,18 +13,15 @@ export const useActiveRouter = (config?: ActiveRouterConfig) => {
   ) => {
     const classes: string[] = [];
     const href = "/" + path.join("/");
+    const currentPath = router.asPath;
 
-    if (config || configOverride?.activeClass) {
-      const currentPath = router.asPath;
-
-      if (currentPath !== href) {
-        return { href, className: "" };
-      }
+    if (currentPath !== href) {
+      return { href, className: "" };
     }
 
     if (configOverride?.activeClass) {
       classes.push(configOverride.activeClass);
-    } else if (config && config.activeClass) {
+    } else if (config?.activeClass) {
       classes.push(config.activeClass);
     } else {
       classes.push("active"); // Default class name
