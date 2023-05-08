@@ -4,7 +4,7 @@ interface ActiveRouterConfig {
   activeClass: string;
 }
 
-export const useActiveRouter = (config: ActiveRouterConfig) => {
+export const useActiveRouter = (config?: ActiveRouterConfig) => {
   const router = useRouter();
 
   const registerRoute = (
