@@ -61,4 +61,4 @@ The `useActiveRouter` hook takes an optional configuration object with the follo
 
 ## License
 
-This package is released under the MIT License. See the [LICENSE](https://github.com/username/repo/blob/master/LICENSE) file for details.
+This package is released under the MIT License. See the [LICENSE](https://github.com/rishabhrpg/active-link-nextjs/blob/main/LICENSE.txt) file for details.
